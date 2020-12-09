@@ -1,5 +1,3 @@
 # LetterCounting
-````This is a quiz.
-````
-
+``This is a quiz.``
 ##### by Takeda Nana
