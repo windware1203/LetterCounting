@@ -1,4 +1,4 @@
 # LetterCounting
 :warning: This is a quiz.
 
-##### by Takeda Nana
+<code> by Takeda Nana </code>
