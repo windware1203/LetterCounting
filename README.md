@@ -1,7 +1,7 @@
 # LetterCounting
 
 :warning:
-***This is a quiz.***
+**This is a quiz.**
 
 
-<code> by Takeda Nana </code>
+<code> ***by Takeda Nana*** </code>
