@@ -23,7 +23,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.AbcountingvTwo">
+  <component name="RunManager" selected="Application.Abcounting">
     <configuration name="Abcounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Abcounting" />
       <module name="LetterCounting" />
@@ -51,8 +51,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbcountingvTwo" />
         <item itemvalue="Application.Abcounting" />
+        <item itemvalue="Application.AbcountingvTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607519287108</updated>
-      <workItem from="1607519289158" duration="628000" />
+      <workItem from="1607519289158" duration="1359000" />
     </task>
     <servers />
   </component>
