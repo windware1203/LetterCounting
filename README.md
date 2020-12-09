@@ -1,3 +1,4 @@
 # LetterCounting
-``This is a quiz.``
+[danger]This is a quiz.
+
 ##### by Takeda Nana
