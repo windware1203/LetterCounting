@@ -1,4 +1,8 @@
 # LetterCounting
-:warning: This is a quiz.
+
+:::danger
+This is a quiz.
+:::
+
 
 <code> by Takeda Nana </code>
