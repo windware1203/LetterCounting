@@ -1,4 +1,4 @@
 # LetterCounting
-[danger]This is a quiz.
+:warning: This is a quiz.
 
 ##### by Takeda Nana
