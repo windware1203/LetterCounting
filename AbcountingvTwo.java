@@ -1,6 +1,8 @@
 import java.security.SecureRandom;
 import java.util.Scanner;
-
+/*
+*   Using Array
+* */
 public class AbcountingvTwo
 {
     public static void main(String[] args)

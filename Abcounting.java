@@ -1,8 +1,7 @@
 import java.security.SecureRandom;
 import java.util.*;
 /*
-* 65-90 Upper
-* 97-122 Lower
+*   Using HashMap
 * */
 public class Abcounting
 {
