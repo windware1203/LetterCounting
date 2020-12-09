@@ -8,23 +8,23 @@ public class AbcountingvTwo
         Scanner buffer = new Scanner(System.in);
         SecureRandom sec = new SecureRandom();
         int tmp=0; // how many letters are there
-        int[] numArr={};
+        int[] numArr = new int[26];
         tmp = buffer.nextInt();
-        numArr = new int[tmp];
         System.out.print("Letter:");
         for(int i = 0; i <tmp ;i++)
         {
             char ccc;
             ccc = (char)(sec.nextInt(26)+97);
             System.out.print(ccc+" ");
-            numArr[(int)ccc-97]++;
+            int add=(int)ccc-97;
+            numArr[add]++;
         }
         System.out.println("");
         System.out.println("");
         for(int i = 0; i <26 ;i++)
         {
             System.out.print((char)(i+97)+":"+numArr[i]+"\t");
-            if((i-97)%5==0)System.out.println("");
+            if((i-97)%4==0)System.out.println("");
         }
         buffer.close();
     }
