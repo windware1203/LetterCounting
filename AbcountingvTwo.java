@@ -16,6 +16,10 @@ public class AbcountingvTwo
         int[] numLArr = new int[26];
         tmp = buffer.nextInt();
         System.out.print("Letter:");
+
+        /*
+        *   Generating random letter (Computing Upper or Lower case)
+        * */
         for(int i = 0; i <tmp ;i++)
         {
             char ccc;
