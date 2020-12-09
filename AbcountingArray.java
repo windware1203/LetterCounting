@@ -1,26 +1,25 @@
 import java.security.SecureRandom;
-import java.util.*;
+import java.util.Scanner;
 /*
-*   Using HashMap
-* 65-90 Upper
-* 97-122 Lower
+*   Using Array
+* ASCII 65-90  Upper Letter
+* ASCII 97-122 Lower Letter
 * */
-public class Abcounting
+public class AbcountingArray
 {
     public static void main(String[] args)
     {
         Scanner buffer = new Scanner(System.in);
         SecureRandom sec = new SecureRandom();
-        HashMap<Character,Integer> cMap = new HashMap();
-        cMap.clear();
         int tmp=0; // how many letters are there
-        //char[] cArr={};
+        int[] numUArr = new int[26];
+        int[] numLArr = new int[26];
         tmp = buffer.nextInt();
-        for (int i = 0; i<26;i++)
-            cMap.put((char)(97+i),0);
-        for (int i = 0; i<26;i++)
-            cMap.put((char)(65+i),0);
         System.out.print("Letter:");
+
+        /*
+        *   Generating random letter (Computing Upper or Lower case)
+        * */
         for(int i = 0; i <tmp ;i++)
         {
             char ccc;
@@ -31,20 +30,22 @@ public class Abcounting
             else
                 ccc = (char)(sec.nextInt(26)+65);
             System.out.print(ccc+" ");
-            int check = cMap.get(ccc)+1;
-            cMap.put(ccc,check);
+            if(flag)
+                numLArr[(int)ccc-97]++;
+            else
+                numUArr[(int)ccc-65]++;
         }
         System.out.println("");
-        for(int i = 65; i <=90 ;i++)
-        {
-            System.out.print((char)i+":"+cMap.get((char)i)+"\t");
-            if((i-97)%5==0)System.out.println("");
-        }
         System.out.println("");
-        for(int i = 97; i <=122 ;i++)
+        for(int i = 0; i <26 ;i++)
         {
-            System.out.print((char)i+":"+cMap.get((char)i)+"\t");
-            if((i-97)%5==0)System.out.println("");
+            System.out.print((char)(i+65)+":"+numUArr[i]+"\t");
+            if((i-97)%4==0)System.out.println("");
+        }
+        for(int i = 0; i <26 ;i++)
+        {
+            System.out.print((char)(i+97)+":"+numLArr[i]+"\t");
+            if((i-97)%4==0)System.out.println("");
         }
         buffer.close();
     }
