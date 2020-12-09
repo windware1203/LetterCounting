@@ -2,6 +2,8 @@ import java.security.SecureRandom;
 import java.util.Scanner;
 /*
 *   Using Array
+* ASCII 65-90  Upper Letter
+* ASCII 97-122 Lower Letter
 * */
 public class AbcountingvTwo
 {
@@ -25,9 +27,9 @@ public class AbcountingvTwo
                 ccc = (char)(sec.nextInt(26)+65);
             System.out.print(ccc+" ");
             if(flag)
-                numLArr[(int)ccc-97]++;//
+                numLArr[(int)ccc-97]++;
             else
-                numUArr[(int)ccc-65]++;//
+                numUArr[(int)ccc-65]++;
         }
         System.out.println("");
         System.out.println("");
