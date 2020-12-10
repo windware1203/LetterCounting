@@ -14,7 +14,7 @@ public class AbcountingArray
         int tmp=0; // how many letters are there
         int[] numUArr = new int[26];
         int[] numLArr = new int[26];
-        tmp = buffer.nextInt();
+        tmp = buffer.nextInt();//How many lettres would you like to generate?
         System.out.print("Letter:");
 
         /*
@@ -37,11 +37,13 @@ public class AbcountingArray
         }
         System.out.println("");
         System.out.println("");
+        //Upper Letter display
         for(int i = 0; i <26 ;i++)
         {
             System.out.print((char)(i+65)+":"+numUArr[i]+"\t");
             if((i-97)%4==0)System.out.println("");
         }
+        //Lower Letter display
         for(int i = 0; i <26 ;i++)
         {
             System.out.print((char)(i+97)+":"+numLArr[i]+"\t");
