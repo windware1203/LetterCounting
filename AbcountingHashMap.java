@@ -25,7 +25,7 @@ public class AbcountingHashMap
         {
             char ccc;
             SecureRandom uOrL = new SecureRandom();
-            boolean flag = uOrL.nextBoolean();
+            boolean flag = uOrL.nextBoolean();//Use the flag to check it is Upper or lower letter.
             if(flag)
                 ccc = (char)(sec.nextInt(26)+97);
             else
