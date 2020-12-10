@@ -24,7 +24,7 @@ public class AbcountingArray
         {
             char ccc;
             SecureRandom uOrL = new SecureRandom();
-            boolean flag = uOrL.nextBoolean();
+            boolean flag = uOrL.nextBoolean();// Use the flag to check which Letter it is, Upper case or Lower case
             if(flag)
                 ccc = (char)(sec.nextInt(26)+97);
             else
